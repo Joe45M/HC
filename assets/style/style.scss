@@ -160,3 +160,22 @@ h1 {
         }
     }
 }
+.convert {
+    text-align: center;
+}
+.conversion-rack {
+    display: flex;
+    visibility: hidden;
+    font-size: 90%;
+    div {
+        width: 90px;
+    }
+    div:nth-child(odd) {
+        background: #d4d4d4;
+        padding: 10px;
+    }
+    div:nth-child(even) {
+        background: #e4e4e4;
+        padding: 10px;
+    }
+}
