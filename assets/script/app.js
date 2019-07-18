@@ -42,7 +42,7 @@ function calcTotal() {
 // convert
 document.querySelector(".convert").addEventListener("click", function(e) {
   fetch(
-    "http://data.fixer.io/api/latest?access_key=d97518b378fe62256ece118fe3518109&base=&symbols=USD,AUD,CAD,PLN,GBP,MXN&format=1"
+    "https://data.fixer.io/api/latest?access_key=d97518b378fe62256ece118fe3518109&base=&symbols=USD,AUD,CAD,PLN,GBP,MXN&format=1"
   ).then(function(response) {
     let res = response.json();
     res.then(function(e) {
