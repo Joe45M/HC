@@ -39,7 +39,7 @@ input {
         margin: 0 auto;
         display: flex;
         .col-1, .col-2 {
-            flex-basis: 50%;
+            width: 50%;
             .col-label {
                 margin-bottom: 15px;
                 text-align: center;
