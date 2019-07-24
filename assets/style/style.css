@@ -46,8 +46,7 @@ input {
 }
 
 #content-container section:nth-child(2) .col-1, #content-container section:nth-child(2) .col-2 {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
 }
 
 #content-container section:nth-child(2) .col-1 .col-label, #content-container section:nth-child(2) .col-2 .col-label {
